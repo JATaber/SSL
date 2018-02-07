@@ -14,10 +14,11 @@ class welcome extends AppController{
         $this->getView("header", array("pagename"=>"welcome"));
 
         //the array of navigation elements to be passed to the navigation
-        $menu1 = array("button1"=>"/link1","button2"=>"/link2", "button3"=>"/link3");
+        $menu = ["button1"=>"/link1","button2"=>"/link2", "button3"=>"/link3"];
+
 
         //loads other parts of the web application
-        $this->getView("navigation", $menu1);
+        $this->getView("navigation", $menu);
         $this->getView("welcome");
         $this->getView("footer");
     }

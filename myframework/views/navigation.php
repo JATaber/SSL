@@ -7,11 +7,15 @@
  * Date: 2/5/18
  * Time: 9:43 PM
  */
+$arr = get_defined_vars();
+//var_dump($arr);
+
+//echo $arr['data'];
+
+foreach($arr["data"] as $key=>$value){
 
 
-foreach($menu1 as $key->$value){
-
-
+    //echo $key.' '.$value;
     echo '<a href="'.$value.'">'.$key.'</a>';
 
 }
