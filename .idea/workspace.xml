@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b133d3f-d69e-41a5-bb11-130ab50dca03" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/welcome.php" afterPath="$PROJECT_DIR$/myframework/controllers/welcome.php" />
+      <change beforePath="$PROJECT_DIR$/myframework/views/footer.php" afterPath="$PROJECT_DIR$/myframework/views/footer.php" />
+      <change beforePath="$PROJECT_DIR$/myframework/views/header.php" afterPath="$PROJECT_DIR$/myframework/views/header.php" />
       <change beforePath="$PROJECT_DIR$/myframework/views/navigation.php" afterPath="$PROJECT_DIR$/myframework/views/navigation.php" />
       <change beforePath="$PROJECT_DIR$/myframework/views/welcome.php" afterPath="$PROJECT_DIR$/myframework/views/welcome.php" />
     </list>
@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/myframework/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+              <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
@@ -31,8 +31,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myframework/views/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="navigation.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myframework/views/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="728">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,23 @@
       <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myframework/views/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="e#560#567#0#HTML" expanded="true" />
+                <element signature="e#966#973#0#HTML" expanded="true" />
+                <element signature="e#1372#1379#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myframework/views/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/myframework/bin/appcontroller.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
-              <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+              <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -83,11 +98,11 @@
         <option value="$PROJECT_DIR$/myframework/bin/config.php" />
         <option value="$PROJECT_DIR$/myframework/router.php" />
         <option value="$PROJECT_DIR$/myframework/index.php" />
-        <option value="$PROJECT_DIR$/myframework/views/footer.php" />
-        <option value="$PROJECT_DIR$/myframework/views/header.php" />
         <option value="$PROJECT_DIR$/myframework/controllers/main.php" />
         <option value="$PROJECT_DIR$/myframework/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/myframework/bin/appcontroller.php" />
+        <option value="$PROJECT_DIR$/myframework/views/footer.php" />
+        <option value="$PROJECT_DIR$/myframework/views/header.php" />
         <option value="$PROJECT_DIR$/myframework/views/welcome.php" />
         <option value="$PROJECT_DIR$/myframework/views/navigation.php" />
       </list>
@@ -137,6 +152,34 @@
               <item name="SSL" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSL" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="myframework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myframework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myframework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myframework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="SSL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSL" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="myframework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="SSL" type="b2602c69:ProjectViewProjectNode" />
@@ -194,12 +237,12 @@
       <updated>1517545804065</updated>
       <workItem from="1517545805218" duration="4582000" />
       <workItem from="1517763633221" duration="105000" />
-      <workItem from="1517763776668" duration="18464000" />
+      <workItem from="1517763776668" duration="19865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23151000" />
+    <option name="totallyTimeSpent" value="24552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -273,14 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/views/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myframework/router.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -329,26 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/views/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myframework/bin/appcontroller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/views/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -356,17 +375,46 @@
     <entry file="file://$PROJECT_DIR$/myframework/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/views/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/views/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#560#567#0#HTML" expanded="true" />
+            <element signature="e#966#973#0#HTML" expanded="true" />
+            <element signature="e#1372#1379#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myframework/views/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="728">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>

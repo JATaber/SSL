@@ -1,13 +1,19 @@
-<p>Header</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<?php
-/**
- * Created by PhpStorm.
- * User: jamestaber
- * Date: 2/4/18
- * Time: 12:14 PM
- */
+    <title>Bootstrap Off-Canvas Nav Plugin Demo</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
-//$this->getView
-?>
+    <!--
+    <link href="src/bootstrap-off-canvas-nav.css" rel="stylesheet">
+    -->
+</head>
