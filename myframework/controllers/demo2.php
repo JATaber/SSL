@@ -17,9 +17,9 @@ class home extends AppController{
     }
 
     public function index(){
-        $this->getView("header", array("pagename"=>"welcome"));
+        $this->getView("header", array("pagename"=>"Project: Demos"));
         $this->getView("navigation", $this->menu);
-
+        $this->getView("demo2");
         $this->getView("footer");
     }
 }

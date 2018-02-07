@@ -71,11 +71,6 @@
             </a>
         </div>
     </div>
-    <div class="jumbotron">
-        <h1 class="text-center">Demos</h1>
-        <p> To seel all =</p>
-        <a href="/welcome/demo2"><button type="button" class="btn btn-primary btn-lg align-self-center">See All Demos</button></a>
-    </div>
 </div> <!-- /container -->
 
 

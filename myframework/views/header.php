@@ -1,3 +1,15 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: jamestaber
+ * Date: 2/5/18
+ * Time: 9:43 PM
+ */
+$arr = get_defined_vars();
+
+//print_r($arr);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +20,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bootstrap Off-Canvas Nav Plugin Demo</title>
+    <?
+    echo "<title>".$arr['data']['pagename']."</title>";
+
+    ?>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!--
     <link href="src/bootstrap-off-canvas-nav.css" rel="stylesheet">
