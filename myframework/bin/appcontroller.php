@@ -18,15 +18,25 @@ class AppController{
 
         $this->urlPathParts = $urlPathParts;
 
+        //http://127.0.0.1/welcome
         if($urlPathParts[0]){
 
-            include './controllers/'.$urlPathParts[0]."php";
+            include './controllers/'.$urlPathParts[0].".php";
 
             $appcon = new $urlPathParts[0]($this);
 
+            //http://127.0.0.1/welcome/contact
             if(isset($urlPathParts[1])){
 
                 $appcon->$urlPathParts[1]();
+            }else{
+
+                // if there is a default method insdie this controller (index)
+                $methodVariable = array($appcon, 'index');
+                if(is_callable($methodVariable, false, $callable_name)){
+
+                    $appcon->index($this);
+                }
             }
 
         } else{
@@ -38,6 +48,12 @@ class AppController{
             if(isset($urlPathParts[1])){
 
                 $appcon->$config["defaultController"][1]();
+            }else{
+                $methodVariable = array($appcon, 'index');
+                if(is_callable($methodVariable, false, $callable_name)){
+
+                    $appcon->index($this);
+                }
             }
         }
     }
