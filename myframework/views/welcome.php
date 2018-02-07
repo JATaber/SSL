@@ -8,34 +8,69 @@
 
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-        <h1>Bootstrap Off-Canvas Nav Plugin Demo</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-            <a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs &raquo;</a>
-        </p>
+        <h1>Modal Example</h1>
+        <p>This example is a quick exercise to illustrate how the Modals would work within the site.</p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-            <a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs &raquo;</a>
-        </p>
+        <h1>Carousel example</h1>
+        <p>This example is a quick exercise to illustrate how the carousel works. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <div id="demoCarousel" class="carousel slide" data-ride="carousel">
+            <!-- INdicators for the carousel -->
+            <ol class="carousel-indicators">
+                <li data-target="#demoCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#demoCarousel" data-slide-to="1"></li>
+                <li data-target="#demoCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrappers for the slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="d-block img-fluid" src="https://placeimg.com/640/480/tech" alt="First slide" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="https://placeimg.com/640/480/people" alt="Second slide" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="https://placeimg.com/640/480/nature" alt="Third slide" style="width:100%;">
+                </div>
+            </div>
+            <!-- Left and Right controlls -->
+            <a class="carousel-control-prev" href="#demoCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#demoCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
-
-    <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-            <a class="btn btn-lg btn-primary" href="#" role="button">View navbar docs &raquo;</a>
-        </p>
-    </div>
-
-    <div class="jumbotron">
-        <h1>Navbar example</h1>
-
-    </div>
-
 </div> <!-- /container -->
 
 
