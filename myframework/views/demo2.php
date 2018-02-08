@@ -7,8 +7,8 @@
 <div class="container">
 
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <h1 class="text-center">Modal Example</h1>
+    <div class="jumbotron text-center">
+        <h1>Modal Example</h1>
         <p>This example is a quick exercise to illustrate how the Modals would work within the site.</p>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg text-center" data-toggle="modal" data-target="#myModal">
@@ -20,13 +20,13 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <h5 class="modal-title" id="exampleModalLabel">Demo Modal</h5>
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                        </button>
+                        </button>-->
                     </div>
                     <div class="modal-body">
-                        ...
+                        <p>This is for the contents of the Modal</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -39,7 +39,7 @@
 
     <div class="jumbotron">
         <h1 class="text-center">Carousel Example</h1>
-        <p>This example is a quick exercise to illustrate how the carousel works. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p class="text-center">This example is a quick exercise to illustrate how the carousel works. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <div id="demoCarousel" class="carousel slide" data-ride="carousel">
             <!-- INdicators for the carousel -->
             <ol class="carousel-indicators">
@@ -71,16 +71,47 @@
             </a>
         </div>
     </div>
+    <div class="jumbotron text-center">
+        <h1>Progress Bar Demos</h1>
+        <p>This is some examples of responsive progress bars at various lengths</p>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div><br>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div><br>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div><br>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div><br>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+        </div><br>
+        <p>This is to give an animated progress bar example</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+        </div>
+    </div>
+    <div class="jumbotron text-center">
+        <h1>Popover Examples</h1>
+        <p>Click the buttons bellow to watch how the popover works. The purpose of this is to demostrate the various directions that the popover do.</p>
+        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            Popover on top
+        </button>
+
+        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            Popover on right
+        </button>
+
+        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            Popover on bottom
+        </button>
+
+        <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+            Popover on left
+        </button>
+    </div>
+
 </div> <!-- /container -->
-
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-<!--
-<script src="src/bootstrap-off-canvas-nav.js"></script>
--->
-</body>

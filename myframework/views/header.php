@@ -27,6 +27,7 @@ $arr = get_defined_vars();
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/custom.css">
 
     <!--
     <link href="src/bootstrap-off-canvas-nav.css" rel="stylesheet">

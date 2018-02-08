@@ -7,8 +7,8 @@
 <div class="container">
 
     <!-- Main component for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <h1 class="text-center">Modal Example</h1>
+    <div class="jumbotron text-center">
+        <h1>Modal Example</h1>
         <p>This example is a quick exercise to illustrate how the Modals would work within the site.</p>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary btn-lg text-center" data-toggle="modal" data-target="#myModal">
@@ -20,13 +20,13 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <h5 class="modal-title" id="exampleModalLabel">Demo Modal</h5>
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                        </button>
+                        </button>-->
                     </div>
                     <div class="modal-body">
-                        ...
+                        <p>This is for the contents of the Modal</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -39,7 +39,7 @@
 
     <div class="jumbotron">
         <h1 class="text-center">Carousel Example</h1>
-        <p>This example is a quick exercise to illustrate how the carousel works. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p class="text-center">This example is a quick exercise to illustrate how the carousel works. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
         <div id="demoCarousel" class="carousel slide" data-ride="carousel">
             <!-- INdicators for the carousel -->
             <ol class="carousel-indicators">
@@ -71,9 +71,9 @@
             </a>
         </div>
     </div>
-    <div class="jumbotron">
-        <h1 class="text-center">Demos</h1>
-        <p> To seel all =</p>
-        <a href="/welcome/demo2"><button type="button" class="btn btn-primary btn-lg align-self-center">See All Demos</button></a>
+    <div class="jumbotron text-center">
+        <h1>Demos</h1>
+        <p>To see all of the application demos click the link</p>
+        <a href="/welcome/demo2"><button type="button" class="btn btn-primary btn-lg">See All Demos</button></a>
     </div>
 </div> <!-- /container -->

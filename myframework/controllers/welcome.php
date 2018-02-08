@@ -19,8 +19,6 @@ class welcome extends AppController{
 
     public function index(){
 
-        //$menu = ["button1"=>"/link1","button2"=>"/link2", "button3"=>"/link3"];
-
         //this loads the header of the application
         $this->getView("header", array("pagename"=>"Project: welcome"));
         $this->getView("navigation", $this->menu);

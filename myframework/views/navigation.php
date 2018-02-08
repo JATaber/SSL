@@ -8,6 +8,10 @@
 $arr = get_defined_vars();
 
 //print_r($arr);
+
+$url = $_SERVER['REQUEST_URI'];
+
+//echo $url;
 ?>
 
 <!-- Static navbar -->
@@ -28,12 +32,18 @@ $arr = get_defined_vars();
             <ul class="navbar-nav mr-auto">
                 <?
                 foreach($arr["data"] as $key=>$value){
+                    $active = '';
 
+                    if($url == $value){
+                        $active = 'active';
+                    }
 
                     //echo $key.' '.$value;
-                    echo '<li class="nav-item '.$key.'"><a class="nav-link" href="'.$value.'">'.$key.'</a></li>';
+                    echo '<li class="nav-item '.$key.' '.$active.'"><a class="nav-link" href="'.$value.'">'.$key.'</a></li>';
 
                 }
+
+
                 ?>
                 <!--
                 <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
