@@ -51,13 +51,13 @@
             <!-- Wrappers for the slides -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="https://placeimg.com/640/480/tech" alt="First slide" style="width:100%;">
+                    <img class="d-block w-100" src="https://placeimg.com/640/480/tech/sepia" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block img-fluid" src="https://placeimg.com/640/480/people" alt="Second slide" style="width:100%;">
+                    <img class="d-block w-100" src="https://placeimg.com/640/480/arch/sepia" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block img-fluid" src="https://placeimg.com/640/480/nature" alt="Third slide" style="width:100%;">
+                    <img class="d-block w-100" src="https://placeimg.com/640/480/nature" alt="Third slide">
                 </div>
             </div>
             <!-- Left and Right controlls -->

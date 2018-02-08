@@ -6,7 +6,7 @@
  * Time: 1:50 AM
  */
 
-class home extends AppController{
+class login extends AppController{
 
 
     public $menu;
