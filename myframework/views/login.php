@@ -1,7 +1,1 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: jamestaber
- * Date: 2/7/18
- * Time: 10:55 AM
- */
+<body class="off-canvas-nav-left" style="padding-top:70px;">

@@ -13,13 +13,13 @@ class home extends AppController{
 
     public function __construct()
     {
-        $this->menu= ["Home"=>"/welcome","button2"=>"/welcome/link2", "button3"=>"/welcome/link3"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Login"=>"/login"];
     }
 
     public function index(){
-        $this->getView("header", array("pagename"=>"Project: Demos"));
+        $this->getView("header", array("pagename"=>"Project: Login"));
         $this->getView("navigation", $this->menu);
-        $this->getView("demo2");
+        $this->getView("login");
         $this->getView("footer");
     }
 }

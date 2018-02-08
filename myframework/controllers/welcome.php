@@ -12,7 +12,7 @@ class welcome extends AppController{
 
     public function __construct(){
 
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "button3"=>"/welcome/link3"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Login"=>"/demo2"];
 
     }
 
