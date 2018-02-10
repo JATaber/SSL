@@ -18,6 +18,8 @@ class AppController{
 
         $this->urlPathParts = $urlPathParts;
 
+        //var_dump($urlPathParts);
+
         //http://127.0.0.1/welcome
         if($urlPathParts[0]){
 

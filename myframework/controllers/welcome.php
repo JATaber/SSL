@@ -10,10 +10,13 @@ class welcome extends AppController{
 
     public $menu;
 
-    public function __construct(){
+    public function __construct($urlPathParts){
 
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Login"=>"/login"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login"];
 
+        $url = get_object_vars($urlPathParts);
+
+        //print_r($url["urlPathParts"]);
     }
 
 
@@ -35,6 +38,26 @@ class welcome extends AppController{
 
     }
     //third party index
+
+    public function form(){
+        $this->getView("header", array("pagename"=>"Project: Form Demo"));
+        $this->getView("navigation", $this->menu);
+        $this->getView("form");
+        $this->getView("footer");
+    }
+
+    public function formRecv(){
+        $this->getView("header", array("pagename"=>"Project: Form Demo"));
+        $this->getView("navigation", $this->menu);
+        $this->getView("form", $_POST);
+
+        $this->getView("footer");
+
+        //echo $_POST["email"];
+
+    }
+
+
 }
 
 ?>

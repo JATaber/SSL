@@ -11,7 +11,7 @@ $arr = get_defined_vars();
 
 $url = $_SERVER['REQUEST_URI'];
 
-//echo $url;
+//var_dump($url);
 ?>
 
 <!-- Static navbar -->
@@ -32,9 +32,9 @@ $url = $_SERVER['REQUEST_URI'];
             <ul class="navbar-nav mr-auto">
                 <?
                 foreach($arr["data"] as $key=>$value){
-                    $active = '';
+                    $active = ' ';
 
-                    if($url == $value){
+                    if($url == $value || $url == '/welcome/formRecv'){
                         $active = 'active';
                     }
 
@@ -42,8 +42,6 @@ $url = $_SERVER['REQUEST_URI'];
                     echo '<li class="nav-item '.$key.' '.$active.'"><a class="nav-link" href="'.$value.'">'.$key.'</a></li>';
 
                 }
-
-
                 ?>
                 <!--
                 <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>

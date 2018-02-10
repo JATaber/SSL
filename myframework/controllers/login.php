@@ -13,7 +13,7 @@ class login extends AppController{
 
     public function __construct()
     {
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Login"=>"/login"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login"];
     }
 
     public function index(){
@@ -21,5 +21,16 @@ class login extends AppController{
         $this->getView("navigation", $this->menu);
         $this->getView("login");
         $this->getView("footer");
+    }
+
+    public function ajaxPars(){
+
+        //var_dump($_REQUEST);
+
+        if(@$_REQUEST["email"] == "mike@aol.com") {
+            echo "welcome";
+        }else{
+            echo "bad login";
+        }
     }
 }
