@@ -61,6 +61,23 @@ $url = $_SERVER['REQUEST_URI'];
                 </li>
                 -->
             </ul>
+            <span style="color:red"><?=@$_REQUEST["msg"]?$_REQUEST["msg"]:'';?></span>
+            <?if(@$_SESSION["loggedin"] && @$_SESSION["loggedin"]==1){?>
+            <form class="form-inline">
+                <a href="/profile">Profile</a> |
+                <a href="/auth/logout">Logout</a>
+            </form>
+            <?}else{?>
+                <form class="form-inline" role="search" method="post" action="/auth/login">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign In</button>
+                </form>
+            <?}?>
             <!--
             <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">

@@ -6,6 +6,8 @@
  * Time: 11:42 AM
  */
 
+session_start();
+
 class AppController{
 
     public function __construct($urlPathParts, $config)
