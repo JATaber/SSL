@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b133d3f-d69e-41a5-bb11-130ab50dca03" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/auth.php" afterPath="$PROJECT_DIR$/myframework/controllers/auth.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myframework/assets/login.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/myframework/views/profile.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/myframework/assets/image1.png" afterPath="$PROJECT_DIR$/myframework/assets/image1.png" />
       <change beforePath="$PROJECT_DIR$/myframework/controllers/profile.php" afterPath="$PROJECT_DIR$/myframework/controllers/profile.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/welcome.php" afterPath="$PROJECT_DIR$/myframework/controllers/welcome.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/views/form.php" afterPath="$PROJECT_DIR$/myframework/views/form.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/views/navigation.php" afterPath="$PROJECT_DIR$/myframework/views/navigation.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,58 +17,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myframework/controllers/welcome.php">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myframework/controllers/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="653">
+              <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myframework/assets/login.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myframework/controllers/auth.php">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myframework/views/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myframework/views/demo2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myframework/controllers/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myframework/views/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="32" />
+            <state relative-caret-position="345">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
-                <marker date="1518482802942" expanded="true" signature="4645:5005" ph="..." />
-                <marker date="1518482802942" expanded="true" signature="4733:5005" ph="..." />
-                <marker date="1518482802942" expanded="true" signature="4786:5005" ph="..." />
-                <marker date="1518482802942" expanded="false" signature="4974:4981" ph="—" />
+                <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myframework/views/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myframework/controllers/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,7 +100,6 @@
         <option value="$PROJECT_DIR$/myframework/controllers/main.php" />
         <option value="$PROJECT_DIR$/myframework/controllers/home.php" />
         <option value="$PROJECT_DIR$/myframework/views/header.php" />
-        <option value="$PROJECT_DIR$/myframework/views/demo2.php" />
         <option value="$PROJECT_DIR$/myframework/views/welcome.php" />
         <option value="$PROJECT_DIR$/myframework/controllers/demo2.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -110,10 +110,13 @@
         <option value="$PROJECT_DIR$/myframework/views/footer.php" />
         <option value="$PROJECT_DIR$/myframework/bin/appcontroller.php" />
         <option value="$PROJECT_DIR$/myframework/controllers/auth.php" />
-        <option value="$PROJECT_DIR$/myframework/controllers/profile.php" />
         <option value="$PROJECT_DIR$/myframework/views/navigation.php" />
         <option value="$PROJECT_DIR$/myframework/views/form.php" />
         <option value="$PROJECT_DIR$/myframework/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/myframework/views/demo2.php" />
+        <option value="$PROJECT_DIR$/myframework/views/profile.php" />
+        <option value="$PROJECT_DIR$/myframework/controllers/profile.php" />
+        <option value="$PROJECT_DIR$/myframework/assets/login.txt" />
       </list>
     </option>
   </component>
@@ -234,12 +237,12 @@
       <updated>1517545804065</updated>
       <workItem from="1517545805218" duration="4582000" />
       <workItem from="1517763633221" duration="105000" />
-      <workItem from="1517763776668" duration="68520000" />
+      <workItem from="1517763776668" duration="71574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73207000" />
+    <option name="totallyTimeSpent" value="76261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="32" width="1356" height="877" extended-state="0" />
@@ -411,44 +414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/views/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myframework/bin/appcontroller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/controllers/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/views/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/views/demo2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -477,17 +446,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myframework/controllers/login.php">
+    <entry file="file://$PROJECT_DIR$/myframework/views/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/views/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/assets/login.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/views/demo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/views/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myframework/views/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="-847">
           <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
@@ -501,8 +509,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myframework/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="488">
           <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/controllers/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="56" column="54" lean-forward="false" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myframework/controllers/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>

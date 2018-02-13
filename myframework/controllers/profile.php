@@ -24,8 +24,36 @@ class profile extends AppController{
 
     public function index(){
 
-        $this->getView("header", array("pagename"=>"welcome"));
+        $this->getView("header", array("pagename"=>"profile"));
         $this->getView("navigation", $this->menu);
-        echo "<br><br><br>This is a protected area";
+        $this->getView("profile", array("pagename"=>"profile"));
+        //echo "<br><br><br>This is a protected area";
+        $this->getView("footer");
+    }
+
+    public function update(){
+        if($_FILES["img"]["name"]!=""){
+
+            $imageFileType = pathinfo("asset/".$_FILES["img"]["name"], PATHINFO_EXTENSION);
+
+            if(file_exists("asset/".$_FILES["img"]["name"])){
+                echo "Sorry, file exists";
+            }else{
+
+                if($imageFileType != "jpg" && $imageFileType != "png"){
+
+                    echo "Sorry, this file type is not allowed";
+                }else{
+
+                    if(move_uploaded_file($_FILES["img"]["temp_name"], "assets/".$_FILES["img"]["name"])){
+
+                        echo "File Uploaded";
+                    }else{
+                        echo "error uploaded";
+                    }
+                }
+            }
+        }
+        header("Location:/profile?msg=File Uploaded");
     }
 }
