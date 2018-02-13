@@ -21,7 +21,7 @@ class auth extends AppController{
 
             if($_REQUEST["username"]=="mike@aol.com" && $_REQUEST["password"]=="password"){
 
-                $_SESSION["loggedin"] ==1;
+                $_SESSION["loggedin"] =1;
                 header("Location:/welcome");
 
 
@@ -34,5 +34,10 @@ class auth extends AppController{
 
             header("Location:/welcome?msg=Bad Login");
         }
+    }
+
+    public function logout(){
+        session_destroy();
+        header("Location:/welcome");
     }
 }

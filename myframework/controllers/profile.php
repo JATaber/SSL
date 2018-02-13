@@ -11,6 +11,8 @@ class profile extends AppController{
 
     public function __construct()
     {
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login"];
+
         if(@$_SESSION["loggedin"] && $_SESSION["loggedin"]==1){
 
 
@@ -23,6 +25,7 @@ class profile extends AppController{
     public function index(){
 
         $this->getView("header", array("pagename"=>"welcome"));
-        echo "This is a protected area";
+        $this->getView("navigation", $this->menu);
+        echo "<br><br><br>This is a protected area";
     }
 }

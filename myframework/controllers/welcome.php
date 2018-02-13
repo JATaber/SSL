@@ -42,18 +42,47 @@ class welcome extends AppController{
     public function form(){
         $this->getView("header", array("pagename"=>"Project: Form Demo"));
         $this->getView("navigation", $this->menu);
-        $this->getView("form");
+        $random = substr( md5(rand()), 0, 7);
+        $this->getView("form", array("cap"=>$random));
         $this->getView("footer");
     }
 
     public function formRecv(){
         $this->getView("header", array("pagename"=>"Project: Form Demo"));
         $this->getView("navigation", $this->menu);
-        $this->getView("form", $_POST);
+
+
+        if($_POST["captcha"]==$_SESSION["captcha"]){
+
+            if(!filter_var($_POST["email"],FILTER_VALIDATE_EMAIL)){
+
+                echo "<br><br><br>Email invalid";
+
+                echo "<br><a href='/welcome/form'>Click here to go back</a>";
+
+            }else{
+
+                echo "<br><br><br>Email valid";
+
+            }
+
+        }else{
+
+            echo "<br><br><br>Invalid captcha";
+
+            echo "<br><a href='/welcome/form'>Click here to go back</a>";
+
+        }
+
+
+
+        //$this->getView("form", $_POST);
 
         $this->getView("footer");
 
-        //echo $_POST["email"];
+        //echo "<br><br><br>";
+        //var_dump($_POST);
+        //var_dump($_SESSION);
 
     }
 
