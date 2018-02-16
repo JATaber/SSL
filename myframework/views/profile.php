@@ -1,10 +1,9 @@
 <body class="off-canvas-nav-left" style="padding-top:70px;">
-
 <div class="container">
     <div class="jumbotron">
         <div class="row card">
             <div class="col-md-12 col-xs-12">
-                <img src="/assets/people-q-c-100-100-1.jpg" class="img-thumbnail picture hidden-xs-down"><br>
+                <img src=" " alt="profile img" class="img-thumbnail picture hidden-xs-down"><br>
 
                 <form action="/profile/update" method="post" enctype="multipart/form-data">
                     <label class="btn btn-primary" style="width: 110px;">Browse
@@ -16,7 +15,7 @@
                 <div class="card-header">
                     <h1>Jane Doe</h1>
                     <h4>Web Developer</h4>
-                    <span>This is about me. This is about me. This is about me. THis is about me. This is about me.</span>
+                    <span><? echo $_SESSION["bio"];?></span>
                 </div>
             </div>
         </div>

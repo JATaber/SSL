@@ -14,26 +14,56 @@ class auth extends AppController{
 
     }
 
+
+
     //auth/login
     public function login(){
+        $file = "./assets/login.txt";
+        $users = file_get_contents($file);
+        $users = explode(PHP_EOL, $users);
 
-        if($_REQUEST["username"]=="mike@aol.com" && $_REQUEST["password"]=="password"){
+        foreach($users as $entry){
+            $info = explode("|", $entry);
+            //var_dump($info);
 
-            if($_REQUEST["username"]=="mike@aol.com" && $_REQUEST["password"]=="password"){
+            $user = $info[0];
+            $password = $info[1];
+            $profile = $info[2];
 
-                $_SESSION["loggedin"] =1;
-                header("Location:/welcome");
 
+            if($_REQUEST["username"]== $user && $_REQUEST["password"]== $password){
+
+                if($_REQUEST["username"]== $user && $_REQUEST["password"]== $password){
+
+                    $_SESSION["loggedin"] =1;
+                    $_SESSION["username"] = $user;
+                    $_SESSION["bio"] = $profile;
+                    echo("<script>console.log('PHP: ".$_SESSION['bio']."');</script>");
+                    echo("<script>console.log('PHP: ".$_REQUEST."');</script>");
+
+
+                    header("Location:/profile");
+
+
+
+
+                }else{
+
+                    header("Location:/welcome?msg=Bad Login");
+                }
 
             }else{
 
-                header("Location:/welcome?msg=Bad Login");
+                echo("<script>console.log('PHP: ".$user."');</script>");
+                echo "<br>";
+                echo("<script>console.log('PHP: ".$_REQUEST["username"]."');</script>");
+                //header("Location:/welcome?msg=Bad Login");
             }
 
-        }else{
 
-            header("Location:/welcome?msg=Bad Login");
         }
+
+
     }
 
     public function logout(){

@@ -15,6 +15,7 @@ class profile extends AppController{
 
         if(@$_SESSION["loggedin"] && $_SESSION["loggedin"]==1){
 
+            //header("Location:/profile");
 
         }else{
             header("Location:/welcome");
@@ -26,6 +27,9 @@ class profile extends AppController{
 
         $this->getView("header", array("pagename"=>"profile"));
         $this->getView("navigation", $this->menu);
+
+
+
         $this->getView("profile", array("pagename"=>"profile"));
         //echo "<br><br><br>This is a protected area";
         $this->getView("footer");
