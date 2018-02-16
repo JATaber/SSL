@@ -13,9 +13,9 @@
                 </form>
 
                 <div class="card-header">
-                    <h1>Jane Doe</h1>
+                    <h1><? echo $_SESSION["name"]; ?></h1>
                     <h4>Web Developer</h4>
-                    <span>This is about me. This is about me. This is about me. THis is about me. This is about me.</span>
+                    <span><? echo $_SESSION["bio"]; ?></span>
                 </div>
             </div>
         </div>

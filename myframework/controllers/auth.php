@@ -44,6 +44,7 @@ class auth extends AppController{
 
 
                     header("Location:/profile");
+                    break;
 
 
 
@@ -55,10 +56,10 @@ class auth extends AppController{
 
             }else{
 
-                echo("<script>console.log('PHP: ".$user."');</script>");
-                echo "<br>";
-                echo("<script>console.log('PHP: ".$_REQUEST["username"]."');</script>");
-                //header("Location:/welcome?msg=Bad Login");
+                //echo("<script>console.log('PHP: ".$user."');</script>");
+                //echo "<br>";
+                //echo("<script>console.log('PHP: ".$_REQUEST["username"]."');</script>");
+                header("Location:/welcome?msg=Bad Login");
             }
 
 
