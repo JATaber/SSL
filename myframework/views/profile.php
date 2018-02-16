@@ -3,7 +3,7 @@
     <div class="jumbotron">
         <div class="row card">
             <div class="col-md-12 col-xs-12">
-                <img src=" " alt="profile img" class="img-thumbnail picture hidden-xs-down"><br>
+                <img src="/assets/images/46.jpg" alt="profile img" class="img-thumbnail picture hidden-xs-down"><br>
 
                 <form action="/profile/update" method="post" enctype="multipart/form-data">
                     <label class="btn btn-primary" style="width: 110px;">Browse
@@ -15,7 +15,7 @@
                 <div class="card-header">
                     <h1>Jane Doe</h1>
                     <h4>Web Developer</h4>
-                    <span><? echo $_SESSION["bio"];?></span>
+                    <span>This is about me. This is about me. This is about me. THis is about me. This is about me.</span>
                 </div>
             </div>
         </div>

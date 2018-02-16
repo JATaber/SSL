@@ -28,7 +28,8 @@ class auth extends AppController{
 
             $user = $info[0];
             $password = $info[1];
-            $profile = $info[2];
+            $name = $info[2];
+            $profile = $info[3];
 
 
             if($_REQUEST["username"]== $user && $_REQUEST["password"]== $password){
@@ -36,9 +37,9 @@ class auth extends AppController{
                 if($_REQUEST["username"]== $user && $_REQUEST["password"]== $password){
 
                     $_SESSION["loggedin"] =1;
-                    $_SESSION["username"] = $user;
+                    $_SESSION["name"] = $name;
                     $_SESSION["bio"] = $profile;
-                    echo("<script>console.log('PHP: ".$_SESSION['bio']."');</script>");
+
                     echo("<script>console.log('PHP: ".$_REQUEST."');</script>");
 
 
