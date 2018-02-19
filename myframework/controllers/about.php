@@ -9,7 +9,7 @@
 class about extends AppController{
 
     public function __construct($parent){
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Sign Up"=>"/login/signup" ,"Login"=>"/login", "About"=>"/about/showList"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login", "About"=>"/about/showList"];
 
         $this->parent = $parent;
         //$this->showList();

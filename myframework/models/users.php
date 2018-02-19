@@ -26,8 +26,8 @@ class users{
     public function add($sql, $value=array()){
 
         $this->sql = $this->db->prepare($sql);
-        //$this->sql->execute($value);
-        $result = $this->db->execute($value);
+        $this->sql->execute($value);
+        //$result = $this->db->execute($value);
 
     }
 

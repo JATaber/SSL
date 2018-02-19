@@ -58,7 +58,10 @@ $url = $_SERVER['REQUEST_URI'];
                     <div class="form-group">
                         <input type="text" class="form-control" name="password" placeholder="Password">
                     </div>
+
                     <button type="submit" class="btn btn-primary">Sign In</button>
+                    <a href="/login/signup"><button type="button" class="btn btn-outline-secondary">Sign Up</button> </a>
+
                 </form>
             <?}?>
             <!--

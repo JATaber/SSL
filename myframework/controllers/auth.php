@@ -21,6 +21,7 @@ class auth extends AppController{
 
         if ($_REQUEST["username"] && $_REQUEST["password"]) {
 
+
             $data = $this->parent->getModel("users")->select("select * from users where email = :email and password = :password", array(":email" => $_REQUEST["username"], ":password" => sha1($_REQUEST["password"])));
 
             if ($data) {
@@ -31,6 +32,36 @@ class auth extends AppController{
                 header("location:/welcome?msg= Bad Login");
             }
         }
+    }
+
+    public function signup(){
+        var_dump($_REQUEST);
+
+
+        if ($_REQUEST["email"] && $_REQUEST["password"]) {
+
+            //$data = $this->parent->getModel("users")->select("select * from users where email = :email", array("email"=>$_REQUEST["email"]));//"'$_REQUEST["email"]'";
+
+
+            if (!filter_var($_REQUEST["email"], FILTER_VALIDATE_EMAIL)) {
+
+                echo "<br><br><br>Email invalid";
+
+                echo "<br><a href='/login/signup'>Click here to go back</a>";
+
+            } else {
+
+                $this->parent->getModel("users")->add("insert into users (email, password) values(:email, :password)", array(":email"=>$_REQUEST["email"], ":password" => sha1($_REQUEST["password"])));
+
+                header("Location:/login/complete");
+            }
+
+        }else{
+            echo "<br><br><br>Cannot leave a field blank!";
+
+            echo "<br><a href='/login/signup'>Click here to go back</a>";
+        }
+
     }
 
         /*
