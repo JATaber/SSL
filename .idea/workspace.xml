@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b133d3f-d69e-41a5-bb11-130ab50dca03" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/myframework/assets/image1.png" afterPath="$PROJECT_DIR$/myframework/assets/image1.png" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/about.php" afterPath="$PROJECT_DIR$/myframework/controllers/about.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/auth.php" afterPath="$PROJECT_DIR$/myframework/controllers/auth.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/login.php" afterPath="$PROJECT_DIR$/myframework/controllers/login.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/profile.php" afterPath="$PROJECT_DIR$/myframework/controllers/profile.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/controllers/welcome.php" afterPath="$PROJECT_DIR$/myframework/controllers/welcome.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/models/users.php" afterPath="$PROJECT_DIR$/myframework/models/users.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/views/about.php" afterPath="$PROJECT_DIR$/myframework/views/about.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/views/navigation.php" afterPath="$PROJECT_DIR$/myframework/views/navigation.php" />
-      <change beforePath="$PROJECT_DIR$/myframework/views/signup.php" afterPath="$PROJECT_DIR$/myframework/views/signup.php" />
-    </list>
+    <list default="true" id="8b133d3f-d69e-41a5-bb11-130ab50dca03" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -295,12 +284,12 @@
       <updated>1517545804065</updated>
       <workItem from="1517545805218" duration="4582000" />
       <workItem from="1517763633221" duration="105000" />
-      <workItem from="1517763776668" duration="103759000" />
+      <workItem from="1517763776668" duration="103821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108446000" />
+    <option name="totallyTimeSpent" value="108508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1356" height="877" extended-state="0" />
