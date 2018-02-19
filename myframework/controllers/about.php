@@ -9,10 +9,10 @@
 class about extends AppController{
 
     public function __construct($parent){
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login", "About"=>"/about"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Sign Up"=>"/login/signup" ,"Login"=>"/login", "About"=>"/about/showList"];
 
         $this->parent = $parent;
-        $this->showList();
+        //$this->showList();
     }
 
     public function showList(){
@@ -23,11 +23,13 @@ class about extends AppController{
         $this->getView("navigation", $this->menu);
         $this->getView("about", $data);
         $this->getView("footer");
+
     }
 
     public function showAddForm(){
         $this->getView("header", array("pagename"=>"about"));
         $this->getView("navigation", $this->menu);
+        $this->showList();
         $this->getView("addForm");
         $this->getView("footer");
     }
@@ -36,18 +38,22 @@ class about extends AppController{
 
         $this->parent->getModel("fruits")->add("insert into fruit_table (name) values(:name)", array(":name"=>$_REQUEST["name"]));
 
-        header("Location:/about");
+        header("Location:/about/showList");
     }
 
     public function delete(){
 
-        print_r($_REQUEST);
+        //print_r($_REQUEST);
+        $this->parent->getModel("fruits")->delete("DELETE FROM fruit_table WHERE id = :id", array(":id"=>$_REQUEST["id"]));//.$_REQUEST["id"]);
+
+        header("Location:/about/showList");
     }
 
     public function edit(){
-        print_r($_REQUEST);
+        //print_r($_REQUEST);
         $this->getView("header", array("pagename"=>"about"));
         $this->getView("navigation", $this->menu);
+        $this->showList();
         $this->getView("editForm");
         $this->getView("footer");
 
@@ -55,5 +61,8 @@ class about extends AppController{
 
     public function editAction(){
 
+        //print_r($_REQUEST);
+        $this->parent->getModel("fruits")->update("UPDATE fruit_table SET name = :name WHERE id = :id", array(":name"=>$_REQUEST["name"], ":id"=>$_REQUEST["id"]));  //'".$_REQUEST["name"]."' WHERE id=".$_REQUEST["id"]);
+        header("Location:/about/showList");
     }
 }

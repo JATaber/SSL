@@ -13,7 +13,7 @@ class login extends AppController{
 
     public function __construct()
     {
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login", "About"=>"/about"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Sign Up"=>"/login/signup" ,"Login"=>"/login", "About"=>"/about"];;
     }
 
     public function index(){
@@ -32,5 +32,12 @@ class login extends AppController{
         }else{
             echo "bad login";
         }
+    }
+
+    public function signup(){
+        $this->getView("header", array("pagename"=>"Project: Login"));
+        $this->getView("navigation", $this->menu);
+        $this->getView("signup");
+        $this->getView("footer");
     }
 }

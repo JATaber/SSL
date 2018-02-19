@@ -32,10 +32,12 @@ class fruits{
     }
 
     public function delete($sql, $value=array()){
-
+        $this->sql = $this->db->prepare($sql);
+        $this->sql->execute($value);
     }
 
     public function update($sql, $value=array()){
-
+        $this->sql = $this->db->prepare($sql);
+        $this->sql->execute($value);
     }
 }
