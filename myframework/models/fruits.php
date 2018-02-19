@@ -16,7 +16,8 @@ class fruits{
     public function select($sql, $value=array()){
 
         $this->sql = $this->db->prepare($sql);
-        $result = $this->db->execute($value);
+        $this->sql->execute($value);
+        //$result = $this->db->execute($value);
         $data = $this->sql->fetchAll();
 
         return $data;
@@ -25,15 +26,16 @@ class fruits{
     public function add($sql, $value=array()){
 
         $this->sql = $this->db->prepare($sql);
-        $results = $this->db->execute($value);
+        $this->sql->execute($value);
+        //$results = $this->db->execute($value);
 
     }
 
-    public function delete(){
+    public function delete($sql, $value=array()){
 
     }
 
-    public function update(){
+    public function update($sql, $value=array()){
 
     }
 }

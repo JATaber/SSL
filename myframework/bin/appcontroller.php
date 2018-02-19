@@ -14,8 +14,10 @@ class AppController{
     {
 
         //db information
+        // "mysql:host=".$config["host"].";dbname=".$config["dbname"].";", $config["dbuser"], $config["dbpass"]
+        //"mysql:dbname=".$config["dbname"].";", $config["dbuser"],$config["dbpass"]
 
-        $this->db = new PDO("mysql:dbname=".$config["dbname"].";",$config["dbuser"],$config["dbpass"]);
+        $this->db = new PDO("mysql:dbname=".$config["dbname"].";", $config["dbuser"], $config["dbpass"]);
         //might have to move this?
 
 

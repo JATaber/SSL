@@ -16,7 +16,8 @@ class users{
     public function select($sql, $value=array()){
 
         $this->sql = $this->db->prepare($sql);
-        $result = $this->db->execute($value);
+        $this->sql->execute($value);
+        //$result = $this->db->execute($value);
         $data = $this->sql->fetchAll();
 
         return $data;
@@ -24,8 +25,9 @@ class users{
 
     public function add($sql, $value=array()){
 
-        $this->sql = $this->db->execute($sql);
-        $results = $this->db->execute($value);
+        $this->sql = $this->db->prepare($sql);
+        $this->sql->execute($value);
+        //$result = $this->db->execute($value);
 
     }
 

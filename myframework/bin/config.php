@@ -8,6 +8,7 @@
 
 $config = array(
     'defaultController' => 'welcome',
+    'host' => '127.0.0.1',
     'dbname' => 'fruits',
     'dbpass' => 'root',
     'dbuser' => 'root',

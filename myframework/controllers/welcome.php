@@ -12,7 +12,7 @@ class welcome extends AppController{
 
     public function __construct($urlPathParts){
 
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form Demo"=>"/welcome/form", "Login"=>"/login", "About"=>"/about"];
 
         $url = get_object_vars($urlPathParts);
 
