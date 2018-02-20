@@ -9,7 +9,7 @@
 
         foreach($data as $fruit){
 
-            echo $fruit["name"]."<a href='/about/edit/?id=".$fruit["id"]."'> Edit </a><a href='/about/delete/?id=".$fruit["id"]."'> Delete </a><br>";
+            echo $fruit["name"]."<a href='/about/edit/?id=".$fruit["id"]."&name=".$fruit["name"]."'> Edit </a><a href='/about/delete/?id=".$fruit["id"]."'> Delete </a><br>";
         }
 
 
