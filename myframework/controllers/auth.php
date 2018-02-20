@@ -35,7 +35,7 @@ class auth extends AppController{
     }
 
     public function signup(){
-        var_dump($_REQUEST);
+        //var_dump($_REQUEST);
 
 
         if ($_REQUEST["email"] && $_REQUEST["password"]) {
