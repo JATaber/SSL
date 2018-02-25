@@ -11,7 +11,7 @@ class profile extends AppController{
 
     public function __construct()
     {
-        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form"=>"/welcome/form", "Login"=>"/login", "About"=>"/about/showList", "API"=>"/api/showApi", "API Search"=>"/api/showYouTube"];
+        $this->menu= ["Home"=>"/welcome","Demo"=>"/welcome/demo2", "Form"=>"/welcome/form", "Login"=>"/login", "About"=>"/about/showList", "API"=>"/api/showApi", "API Search"=>"/youtube/showYouTube"];
         if(@$_SESSION["loggedin"] && $_SESSION["loggedin"]==1){
 
             //header("Location:/profile");
